@@ -3,6 +3,7 @@
     --secondary-color: #f5f2fe;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     --main-font-family: 'Playfair Display', serif;
+    --secondary-font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -28,7 +29,7 @@ h1 {
 
 h2 {
     font-size: 48px;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--secondary-font-family);
     font-weight: medium;
 }
 
@@ -64,6 +65,7 @@ p {
     padding: 20px 15px;
     text-decoration: none;
     text-transform: capitalize;
+    font-family: var(--secondary-font-family);
 }
 
 .secondary-link {
@@ -73,6 +75,7 @@ p {
     text-decoration: none;
     text-transform: capitalize;
     border-radius: 4px;
+    font-family: var(--secondary-font-family);
 }
 
 .homepage-link {
@@ -84,10 +87,12 @@ p {
 .about-paragraphs {
     /* display: flex; */
     margin: 30px 0;
+    padding: 120px 60px;
 }
 
 .about-paragraphs p {
     margin: 10px;
+
 }
 
 .email-link {
@@ -113,6 +118,9 @@ a:hover {
 #contact {
     margin-top: 50px;
 }
+
+
+
 
 
 @media(max-width:992px) {
@@ -163,6 +171,11 @@ a:hover {
 
     .project-description {
         padding: 10px;
+    }
+
+    .about-paragraphs {
+        padding: 48px 60px;
+        margin: 0;
     }
 }
 
