@@ -130,6 +130,46 @@ a:hover {
     margin-top: 50px;
 }
 
+footer .contact-box {
+    background-color: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+footer .email-link {
+    font-size: 24px;
+    color: black;
+    font-family: var(--secondary-font-family);
+}
+
+footer .email-link:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--primary-color);
+    background: var(--secondary-color);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    text-decoration: none;
+
+}
+
+footer h4 {
+    font-size: 48px;
+}
+
+
+
 
 
 
